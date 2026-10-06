@@ -1,0 +1,134 @@
+body{
+    background-color: rgb(33, 33, 46);
+}
+
+header{
+    border-bottom: 1px solid white;
+    color:white;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    padding: 0px 20px;
+    
+}
+
+nav{
+    text-transform:capitalize;
+    display: flex;
+    flex-direction:row;
+    gap:10px;;
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+}
+
+.sign{
+    border-radius: 8px;
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+    margin: 10px 0px;
+    padding: 20px;
+}
+
+.create{
+    border-radius: 8px;
+    border: 1px solid ;
+    background-color: rgb(147, 40, 40);
+    color: white;
+    margin: 10px 10px ;
+    padding:20px;
+}
+
+
+.menu{
+    display: none;
+}
+
+ @media (max-width:744px ) {
+        .menu{
+          display: flex;
+        }
+        nav{
+            display:none;
+        }
+        button{
+         display: none;   
+        }
+        header{
+            padding: 5px 20px ;
+        }
+    }
+
+ .hero{
+        font-size: 4rem;
+        font-weight: 400;
+        text-align: center;
+        line-height: 1.1;
+    }
+
+.virtual{
+        color: white;
+    }
+
+.for{
+    color: orangered;
+}
+
+.empower{
+    font-size: 1.1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    max-width: 700px;
+    margin: 1.5rem auto;
+    line-height: 1.6;
+}
+
+.start{
+    background-color: orangered;
+    color: white;
+    border: 1px solid orangered;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 15px;
+}
+
+.docu{
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 15px;
+}
+
+.heroButtons{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.vid{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.but2{
+    display:flex;
+    justify-content: center;
+    color: orangered;
+}
+
+.easily{
+      font-size: 4rem;
+        font-weight: 400;
+        text-align: center;
+        line-height: 1.1;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+}

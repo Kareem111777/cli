@@ -1,0 +1,38 @@
+body{
+    background-color: aquamarine;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 400px;
+    width: 100%;
+    margin: 100px auto;
+}
+
+section{
+    margin: 0px;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid white;
+}
+
+form{
+    margin: 0px auto;
+    width: 100%;
+    max-width: 400px;
+}
+
+input{
+    width: 95%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    margin: 10px 0auto;
+}
+
+button{
+    width: 100%;
+    background-color: #00bc77;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    padding: 10px;
+}

@@ -1,0 +1,48 @@
+body{
+    background-image:rgba(68, 14, 230, 0.811) ;
+    font-family:  Arial, Helvetica, sans-serif;
+    max-width: 400px;
+    width: 100%;
+    margin: 100px auto;
+}
+
+h2{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: green;
+}
+
+section{
+    margin: 0px ;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: brown;
+    border: 3px solid black;
+}
+
+
+form{
+    margin: 0px auto;
+    width: 100%;
+    max-width: 400px;
+}
+
+
+button{
+    width: 100%;
+    background-color: #00bc77;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    padding: 10px;
+}
+
+.reset{
+    margin-left: 50%;
